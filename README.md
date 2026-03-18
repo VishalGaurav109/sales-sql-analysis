@@ -30,4 +30,4 @@ This project analyzes sales data using SQL to extract business insights on custo
 - Business insight generation
 
 ## Sample Outputs
-(Screenshot.png)
+Screenshot.png
