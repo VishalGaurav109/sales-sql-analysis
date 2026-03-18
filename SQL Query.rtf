@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 SET GLOBAL local_infile = 1;\
+\
+\
+-- 1. CREATE DATABASE\
+\
+CREATE DATABASE sales_project;\
+USE sales_project;\
+\
+-- 2. CREATE TABLES\
+\
+-- Customers\
+CREATE TABLE IF NOT EXISTS customers (\
+    customer_id INT PRIMARY KEY,\
+    customer_name VARCHAR(100),\
+    city VARCHAR(50),\
+    segment VARCHAR(50)\
+);\
+\
+-- Products\
+CREATE TABLE IF NOT EXISTS products (\
+    product_id INT PRIMARY KEY,\
+    category VARCHAR(50),\
+    sub_category VARCHAR(50),\
+    price DECIMAL(10,2)\
+);\
+\
+-- Orders\
+CREATE TABLE IF NOT EXISTS orders (\
+    order_id INT PRIMARY KEY,\
+    customer_id INT,\
+    product_id INT,\
+    order_date DATETIME,\
+    quantity INT,\
+    discount DECIMAL(5,2),\
+    sales DECIMAL(10,2),\
+    profit DECIMAL(10,2)\
+);\
+\
+-- 3. DATA IMPORT (via Table Data Import wizard)\
+\
+\
+-- 4. DATA VALIDATION\
+\
+SELECT COUNT(*) AS customers_count FROM customers;\
+SELECT COUNT(*) AS products_count FROM products;\
+SELECT COUNT(*) AS orders_count FROM orders;\
+\
+\
+-- 5. BUSINESS ANALYSIS\
+\
+-- Total Sales & Profit\
+SELECT \
+    SUM(sales) AS total_sales,\
+    SUM(profit) AS total_profit\
+FROM orders;\
+\
+-- Sales by Category\
+SELECT p.category, SUM(o.sales) AS total_sales\
+FROM orders o\
+JOIN products p ON o.product_id = p.product_id\
+GROUP BY p.category\
+ORDER BY total_sales DESC;\
+\
+-- Top 5 Customers\
+SELECT c.customer_name,SUM(o.sales) AS total_sales\
+FROM orders o\
+JOIN customers c ON o.customer_id = c.customer_id\
+GROUP BY c.customer_name\
+ORDER BY total_sales DESC\
+LIMIT 5;\
+\
+-- Top 3 Products by Sales\
+SELECT p.product_id,SUM(o.sales) AS total_sales\
+FROM orders o\
+JOIN products p ON o.product_id = p.product_id\
+GROUP BY p.product_id\
+ORDER BY total_sales DESC\
+LIMIT 3;\
+\
+-- Monthly Sales Trend\
+SELECT \
+    DATE_FORMAT(order_date, '%Y-%m') AS month,\
+    SUM(sales) AS total_sales\
+FROM orders\
+GROUP BY month\
+ORDER BY month;\
+\
+-- Sales by City\
+SELECT c.city,SUM(o.sales) AS total_sales\
+FROM orders o\
+JOIN customers c ON o.customer_id = c.customer_id\
+GROUP BY c.city\
+ORDER BY total_sales DESC;\
+\
+-- Customer Ranking\
+SELECT customer_name,total_sales,\
+    RANK() OVER (ORDER BY total_sales DESC) AS rank_num\
+FROM (\
+    SELECT c.customer_name,SUM(o.sales) AS total_sales\
+    FROM orders o\
+    JOIN customers c ON o.customer_id = c.customer_id\
+    GROUP BY c.customer_name\
+) t;\
+\
+-- Discount Impact\
+SELECT discount,SUM(sales) AS total_sales,SUM(profit) AS total_profit\
+FROM orders\
+GROUP BY discount\
+ORDER BY discount;\
+\
+}
