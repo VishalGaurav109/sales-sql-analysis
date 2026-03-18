@@ -28,3 +28,6 @@ This project analyzes sales data using SQL to extract business insights on custo
 - Data modeling
 - Writing complex SQL queries
 - Business insight generation
+
+## Sample Outputs
+(Screenshot.png)
