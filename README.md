@@ -31,3 +31,7 @@ This project analyzes sales data using SQL to extract business insights on custo
 
 ## Sample Outputs
 [Screenshot.png](https://github.com/VishalGaurav109/sales-sql-analysis/blob/main/Screenshot.png)
+
+## Power BI Dashboard
+An interactive dashboard built using Power BI to analyze sales performance across customers, categories, and cities.
+https://github.com/VishalGaurav109/sales-sql-analysis/blob/main/Sales%20Dashboard.pdf
