@@ -1,0 +1,201 @@
+product_id,category,sub_category,price
+1,Furniture,Binders,1004.38
+2,Technology,Binders,481.36
+3,Furniture,Tables,1975.95
+4,Office Supplies,Chairs,1890.92
+5,Furniture,Tables,126.88
+6,Furniture,Tables,1425.87
+7,Technology,Binders,1854.23
+8,Technology,Phones,402.12
+9,Office Supplies,Chairs,1157.49
+10,Furniture,Binders,1835.2
+11,Furniture,Phones,116.19
+12,Furniture,Phones,1409.97
+13,Office Supplies,Storage,629.83
+14,Office Supplies,Chairs,1852.57
+15,Technology,Phones,1943.56
+16,Technology,Binders,1891.32
+17,Technology,Storage,974.72
+18,Furniture,Chairs,1730.98
+19,Furniture,Tables,1696.87
+20,Technology,Binders,672.25
+21,Furniture,Phones,1666.39
+22,Technology,Phones,122.16
+23,Office Supplies,Binders,1212.73
+24,Technology,Phones,498.52
+25,Office Supplies,Storage,285.11
+26,Furniture,Chairs,200.06
+27,Technology,Storage,1407.76
+28,Furniture,Phones,712.76
+29,Office Supplies,Tables,1463.3
+30,Office Supplies,Chairs,177.44
+31,Office Supplies,Chairs,664.82
+32,Furniture,Binders,1102.01
+33,Furniture,Binders,1591.91
+34,Furniture,Tables,671.57
+35,Furniture,Chairs,1270.49
+36,Office Supplies,Tables,1777.66
+37,Office Supplies,Binders,1250.93
+38,Technology,Binders,504.27
+39,Technology,Chairs,97.58
+40,Furniture,Storage,1746.69
+41,Office Supplies,Phones,91.48
+42,Office Supplies,Binders,1755.67
+43,Office Supplies,Binders,1081.43
+44,Technology,Storage,1881.18
+45,Technology,Storage,1607.63
+46,Office Supplies,Tables,1995.97
+47,Office Supplies,Tables,733.89
+48,Office Supplies,Phones,1546.02
+49,Technology,Phones,833.77
+50,Office Supplies,Chairs,985.76
+51,Office Supplies,Tables,1273.64
+52,Furniture,Binders,1753.67
+53,Furniture,Tables,1968.96
+54,Technology,Binders,1548.13
+55,Office Supplies,Storage,864.65
+56,Office Supplies,Tables,871.65
+57,Furniture,Storage,1488.29
+58,Technology,Phones,515.62
+59,Furniture,Phones,265.42
+60,Furniture,Chairs,741.51
+61,Furniture,Tables,610.12
+62,Furniture,Storage,627.8
+63,Office Supplies,Binders,505.54
+64,Office Supplies,Phones,132.08
+65,Furniture,Phones,84.85
+66,Technology,Binders,1976.06
+67,Technology,Storage,884.16
+68,Technology,Storage,799.44
+69,Technology,Tables,1375.31
+70,Furniture,Tables,475.6
+71,Office Supplies,Chairs,1902.42
+72,Technology,Phones,1583.37
+73,Furniture,Tables,224.35
+74,Technology,Storage,864.28
+75,Technology,Binders,1764.28
+76,Furniture,Storage,1892.23
+77,Office Supplies,Phones,961.43
+78,Office Supplies,Storage,1246.15
+79,Furniture,Chairs,375.72
+80,Office Supplies,Phones,1982.78
+81,Furniture,Binders,501.76
+82,Furniture,Chairs,1888.33
+83,Furniture,Phones,1316.81
+84,Office Supplies,Binders,1235.09
+85,Furniture,Chairs,1049.74
+86,Technology,Chairs,499.81
+87,Office Supplies,Phones,394.23
+88,Office Supplies,Tables,479.95
+89,Office Supplies,Chairs,413.55
+90,Office Supplies,Chairs,1570.19
+91,Technology,Binders,732.74
+92,Office Supplies,Storage,162.79
+93,Office Supplies,Phones,1939.75
+94,Furniture,Phones,1773.38
+95,Office Supplies,Tables,1859.12
+96,Technology,Tables,1990.07
+97,Technology,Phones,389.1
+98,Technology,Tables,822.67
+99,Technology,Binders,1528.57
+100,Office Supplies,Phones,1407.24
+101,Office Supplies,Tables,350.1
+102,Technology,Phones,1640.87
+103,Technology,Storage,487.66
+104,Office Supplies,Chairs,486.44
+105,Technology,Phones,1097.1
+106,Furniture,Chairs,1206.23
+107,Technology,Tables,1181.17
+108,Technology,Chairs,228.4
+109,Furniture,Phones,1761.05
+110,Furniture,Storage,567.92
+111,Office Supplies,Tables,302.55
+112,Office Supplies,Phones,1783.06
+113,Furniture,Tables,1913.52
+114,Furniture,Binders,1731.15
+115,Office Supplies,Chairs,1628.56
+116,Technology,Binders,1327.72
+117,Furniture,Phones,1124.17
+118,Office Supplies,Storage,219.62
+119,Technology,Tables,846.48
+120,Furniture,Chairs,776.74
+121,Technology,Tables,556.52
+122,Office Supplies,Phones,1460.67
+123,Furniture,Tables,1016.96
+124,Technology,Chairs,208.04
+125,Furniture,Phones,479.36
+126,Technology,Tables,1382.35
+127,Office Supplies,Storage,198.46
+128,Office Supplies,Phones,1709.85
+129,Furniture,Phones,1015.54
+130,Technology,Storage,987.14
+131,Furniture,Binders,1205.2
+132,Furniture,Chairs,1658.13
+133,Technology,Binders,728.23
+134,Technology,Tables,1372.13
+135,Technology,Storage,1153.18
+136,Office Supplies,Binders,570.71
+137,Furniture,Phones,1763.33
+138,Furniture,Tables,1604.98
+139,Office Supplies,Tables,1333.98
+140,Technology,Binders,1708.63
+141,Office Supplies,Binders,1741.22
+142,Office Supplies,Storage,1431.31
+143,Office Supplies,Chairs,1682.18
+144,Furniture,Binders,1410.07
+145,Office Supplies,Binders,1376.27
+146,Furniture,Phones,1256.29
+147,Furniture,Tables,1517.8
+148,Furniture,Chairs,359.28
+149,Technology,Phones,1767.7
+150,Furniture,Storage,1750.09
+151,Furniture,Storage,107.03
+152,Technology,Binders,1660.34
+153,Furniture,Binders,301.3
+154,Office Supplies,Storage,703.48
+155,Office Supplies,Binders,1499.84
+156,Furniture,Chairs,363.48
+157,Technology,Binders,1645.04
+158,Office Supplies,Tables,1672.66
+159,Technology,Binders,1039.56
+160,Technology,Phones,62.45
+161,Office Supplies,Chairs,609.72
+162,Technology,Phones,1253.01
+163,Office Supplies,Phones,1963.31
+164,Technology,Tables,1282.04
+165,Office Supplies,Chairs,556.62
+166,Furniture,Chairs,1286.31
+167,Office Supplies,Chairs,1102.97
+168,Office Supplies,Chairs,1570.7
+169,Office Supplies,Chairs,258.61
+170,Office Supplies,Tables,1534.0
+171,Technology,Binders,1105.47
+172,Furniture,Phones,1927.83
+173,Office Supplies,Chairs,716.65
+174,Technology,Binders,1283.61
+175,Furniture,Binders,1867.45
+176,Furniture,Phones,249.89
+177,Furniture,Tables,1877.6
+178,Furniture,Storage,1391.38
+179,Office Supplies,Storage,182.28
+180,Office Supplies,Binders,636.88
+181,Technology,Phones,1430.94
+182,Technology,Storage,181.33
+183,Technology,Binders,1185.23
+184,Furniture,Tables,724.47
+185,Furniture,Storage,1260.79
+186,Office Supplies,Binders,139.2
+187,Furniture,Binders,1749.5
+188,Furniture,Chairs,1948.3
+189,Furniture,Tables,1939.31
+190,Technology,Chairs,1511.82
+191,Technology,Phones,303.67
+192,Office Supplies,Chairs,1528.61
+193,Furniture,Chairs,97.94
+194,Furniture,Storage,93.14
+195,Office Supplies,Binders,681.04
+196,Furniture,Tables,1002.85
+197,Furniture,Chairs,1552.29
+198,Technology,Tables,1382.43
+199,Office Supplies,Chairs,919.51
+200,Office Supplies,Phones,583.57
